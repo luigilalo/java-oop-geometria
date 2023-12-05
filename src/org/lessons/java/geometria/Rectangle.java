@@ -11,15 +11,15 @@ public class Rectangle {
     Rectangle(int base, int altezza) {
         this.base = base;
         this.altezza = altezza;
-        calcolaArea(base, altezza);
-        calcolaPerimetro(base, altezza);
+        calcolaArea();
+        calcolaPerimetro();
     }
 
-    public void calcolaArea(int base, int altezza) {
+    void calcolaArea() {
         this.area = base * altezza;
     }
 
-    public void calcolaPerimetro(int base, int altezza) {
+    void calcolaPerimetro() {
         this.perimetro = (2 * base) + (2 * altezza);
     }
 
