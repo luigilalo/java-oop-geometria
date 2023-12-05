@@ -22,4 +22,23 @@ public class Rectangle {
     public void calcolaPerimetro(int base, int altezza) {
         this.perimetro = (2 * base) + (2 * altezza);
     }
+
+    @Override
+    public String toString() {
+        return "Rectangle [" +
+                "base='" + base + '\'' +
+                ", altezza=" + altezza +
+                ", area='" + area + '\'' +
+                ", perimetro='" + perimetro + '\'' +
+                ']';
+    }
+
+    public String toString2() {
+        return "Rectangle [" +
+                ", area='" + area + '\'' +
+                ", perimetro='" + perimetro + '\'' +
+                ']';
+    }
+
 }
+
