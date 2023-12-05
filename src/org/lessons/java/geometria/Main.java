@@ -15,6 +15,7 @@ public class Main {
         System.out.println("Il perimetro del rettangolo misura " + rectangle.perimetro);
         */
         System.out.println(rectangle);
+        rectangle.disegna();
 
         System.out.println("Vuoi creare un nuovo rettangolo? (y/n)");
         String rectangleChoice = scan.next();
@@ -27,6 +28,7 @@ public class Main {
            /* System.out.println ("L'area del nuovo rettangolo sarà " + rectangleCreated.area);
               System.out.println ("Il perimetro del nuovo rettangolo sarà " + rectangleCreated.perimetro); */
               System.out.println(rectangleCreated.toString2());
+              rectangleCreated.disegna();
         }
     }
 }

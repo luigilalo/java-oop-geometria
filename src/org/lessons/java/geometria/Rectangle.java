@@ -40,5 +40,21 @@ public class Rectangle {
                 ']';
     }
 
-}
+    void disegna() {
+        for (int i = 0; i <= base; i++) {
+            for (int j = 0; j <= altezza; j++) {
+                if ((i == 0 || i == base))
+                    System.out.print("0");
+                else {
+                    if ((j == 0 || j == altezza) && (i > 0 && i < base)) {
+                        System.out.print("0");
+                    } else {
+                        System.out.print(" ");
+                    }
+                }
+            }
+                System.out.println();
+            }
+        }
+    }
 
